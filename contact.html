@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>home doctor</title>
+
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+  <script src="https://kit.fontawesome.com/c61dd59468.js" crossorigin="anonymous"></script>
+
+  <!-- emailjs-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_uZPKUizp9c52oL15D3h7h");
+
+    })();
+  </script>
+
+</head>
+
+<body>
+
+  <header>
+    <a href="index.html">
+      <div>
+        <img class="icon" src="css/images/logo.jpg" alt="icon picture">
+        <h2 id="logo">Moving Doctors</h2>
+      </div>
+    </a>
+    <nav>
+      <ul id="menu">
+        <li>
+          <a class="active" href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="form-section">
+    <div id="form-container">
+      <div id="form-overview">
+        <h2 class="main-heading">"Contact Us!"<i class="fas fa-envelope-open-text"></i></h2>
+        <!--emailjs-->
+        <form class="signup-form" onsubmit="return sendMail(this)" method="POST">
+          <fieldset>
+            <legend> Personal Details</legend>
+
+
+            <label for="user's first name">Name</label>
+            <input id="fname" class="text-input" type="text" name="name" required>
+
+            <label for="email">Email Address</label>
+            <input id="email" class="text-input" type="email" name="email" required>
+            <label for="request">Message</label>
+            <textarea rows="10" name="message" class="text-input2" id="name" required></textarea>
+
+          </fieldset>
+
+          <input class="join-button" type="submit" text="join">
+        </form>
+        <br>
+        <br>
+        <h3>For general inquiries, please contact Moving Doctors at</h3>
+        <br>
+        <h3>call +93 78 621 2754 or harima.razban@gmail.com</h3>
+        <br>
+      </div>
+
+    </div>
+  </section>
+
+  <div>
+<br>
+    <h2 class="goal">Do we cover your area?</h2>
+
+    <p class="goal">Our service area includes the entire Kabul City. </p>
+    <p class="goal">This includes; Macrorayan, Share-Now, Qalayfateulla,</p>
+      <p class="goal">Charqala, Wazirakbarkhan,and Taimane.</p>
+
+
+      <h2 class="goal">We're always looking for new regions to service as part of our mission to reach home bound patients.
+      </h2>
+    
+  </div>
+
+
+  <footer>
+
+    <br>
+    <ul class="social-networks">
+
+      <li> <a href="https://www.facebook.com/Moving-Doctors-121191536381347/?ref=page_internal"
+          class="fa fa-facebook"></a></li>
+      <li><a href="http://www.twiteer.com" class="fa fa-twitter"></a></li>
+      <li><a href="http://www.google.com" class="fa fa-google"></a></li>
+      <li><a href="https://www.linkedin.com/in/harima-razban-224a62108/" class="fa fa-linkedin"></a></li>
+      <li><a href="http://www.youtube.com" class="fa fa-youtube"></a></li>
+      <li><a href="http://www.instagram.com" class="fa fa-instagram"></a></li>
+    </ul>
+    <h6>All rights reserve. <i class="far fa-copyright"></i> 2020 National Home Doctor Service</h6>
+    <br>
+  </footer>
+
+  <!--SCRIPT FOR EMAIL JS-->
+  <script src="js/sendEmail.js"></script>
+</body>
+
+</html>
