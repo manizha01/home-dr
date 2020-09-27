@@ -15,7 +15,7 @@ body{
 h2{
     font-family: Oswald;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color:#555555;
 }
 
@@ -48,7 +48,7 @@ h2{
 #menu{
     font-size: 110%;
     list-style-type: none;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 
@@ -109,7 +109,7 @@ h2{
     font-size: 130%;
     font-family: Oswald;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 
     width: 400px;
     height: 200px;
