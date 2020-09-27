@@ -37,6 +37,14 @@ h2{
     
   }
 
+  .dari {
+    position: relative;
+    top: 18px;
+    left: 20px;
+    float: left;
+    font-size: 280%;
+  }
+
 #menu{
     font-size: 110%;
     list-style-type: none;
