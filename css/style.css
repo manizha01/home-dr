@@ -547,6 +547,8 @@ legend {
     padding: 20px;
     background-color: rgba(107, 176, 241, 0.7);
     color: #ffffff;
+    text-align: justify;
+    font-size: 25px;
   }
 
   /*social media*/
